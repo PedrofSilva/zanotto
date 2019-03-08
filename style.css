@@ -1,5 +1,25 @@
+@media (max-width: 450px){
+	.img-capa{
+		background-repeat: no-repeat; 
+		background-image: url(imagens/capa-img3.jpg);
+		background-size: cover;
+		background-position: center center;
+		width: 100%;
+		height: 100%;
+	}
+}
+@media (min-width: 450px){
+	.img-capa{
+		background-repeat: no-repeat; 
+		background-image: url(imagens/capa-img2.jpg);
+		background-size: cover;
+		background-position: center center;
+		width: 100%;
+		height: 100%;
+	}
+}
 .marcador{
-	border: solid 1px red;
+	border: solid 5px red;
 }
 .marcador2{
 	border: solid 1px green;
@@ -25,6 +45,7 @@ html, body{
 .navbar-toggler{
 	border:0;
 }
+
 .img-logo{
 	height: 60px;
 	width: 200px;
@@ -53,15 +74,7 @@ html, body{
 	color: black;
 }
 
-.img-capa{
-	background-repeat: no-repeat; 
-	background-image: url(imagens/capa-img2.jpg);/* rgb(0,0,0,0,5);*/
-	background-size: cover;
-	background-position: center center;
-	width: 100%;
-	height: 100%;
-	
-}
+
 .quem-somos{
 	height: 200px;
 }
