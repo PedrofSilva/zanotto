@@ -43,6 +43,16 @@ body{
 .navbar-dark .navbar-toggler{
 	border: 0;
 }
+.navbar-nav .nav-link{
+	color: green;
+	font-size: 20px;
+    font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 400;
+}
+.navbar-nav .nav-link:hover{
+	color: black;
+}
+
 .img-capa{
 	background-repeat: no-repeat; 
 	background-image: url(imagens/capa.jpg);/* rgb(0,0,0,0,5);*/
