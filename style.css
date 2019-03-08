@@ -1,0 +1,59 @@
+.marcador{
+	border: solid 1px red;
+}
+.marcador2{
+	border: solid 1px green;
+}
+
+body{
+	height: 100%;
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+#capa{
+	width: 100%;
+	height: 1100px;
+}
+.nav-link{
+    color: white;
+}
+.navbar-brand{
+    background: url(imagens/logo_zanotto.png);
+}
+.bg-navbar-transparent{
+	background-color: rgba(255,255,255,0.9);
+}
+.navbar-toggler{
+	border:0;
+}
+.img-logo{
+	height: 60px;
+	width: 200px;
+	display: block;
+	background: url('imagens/logo_zanotto.png') center no-repeat;
+	background-size: 200px 55px;
+	color: transparent;
+}
+.img-size-logo{
+	width: 200px;
+	height: 60px;
+}
+.color-icon-navbar{
+	color: green;
+}
+.navbar-dark .navbar-toggler{
+	border: 0;
+}
+.img-capa{
+	background-repeat: no-repeat; 
+	background-image: url(imagens/capa.jpg);/* rgb(0,0,0,0,5);*/
+	background-size: cover;
+	background-position: center center;
+	width: 100%;
+	height: 100%;
+	
+}
+.quem-somos{
+	height: 200px;
+}
+
+

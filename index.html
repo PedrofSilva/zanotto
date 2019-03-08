@@ -3,10 +3,13 @@
   <head>
     <!-- Required meta tags -->
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <!-- Links -->
-    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css" >
     <link rel="stylesheet" href="style.css" >
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.css" >
     <link rel="icon" href="imagens/favicon_zanotto.png">
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css">
 
  
     <title>Zanotto</title>
@@ -14,41 +17,50 @@
   <body>
       <!--Barra de navegação.-->
 
-        <nav class="navbar navbar-expand-lg navbar-light bg-success">
-          <a class="navbar-brand" href="#">Navbar</a>
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-            <div class="navbar-nav">
-              <a class="nav-item nav-link active text-center" href="#">Home <span class="sr-only">(current)</span></a>
-              <a class="nav-item nav-link text-center" href="#">Features</a>
-              <a class="nav-item nav-link text-center" href="#">Pricing</a>
-              <a class="nav-item nav-link disabled text-center" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-            </div>
-          </div>
-        </nav>
-
-        
-      
-
- 
-   
-        
-      <!--Barra acima da Navbar-->
-       <!-- <div class="container"> <div class="row"> <div class="offset-md-9"> <a href="#"><img src="imagens/icon-facebook.png" class="img-top mt-4 ml-3"></a><a href="#"><img src="imagens/icon-youtube.png" class="img-top mt-4 ml-3"></a> <a href="#"><img src="imagens/icon-whats.png" class="img-top mt-4 ml-3"></a> <a href="#"><img src="imagens/icon-email.png" class="img-top mt-4 ml-3"></a> </div> </div> </div>-->
-      
-     
+      <nav>
        
 
-      
+          <div id="myNavbar" class="navbar navbar-expand-md bg-navbar-transparent fixed-top">
+          <!--Imagem logo jt-sistemas--> 
+  
+          <div >
+          <a id="logo" class="img-logo ml-2" href="#"></a>
+          </div>
+        
+          
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse">
+            <span class="fas fa-angle-down fa-2x color-icon-navbar"></span>
+          </button>
+  
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav ml-auto mr-5">
+              <li class="nav-item "><a class="ml-4 nav-link text-center text-dark" class="scroll"  href="#home">Home</a></li>
+              <li class="nav-item "><a class="ml-4 nav-link text-center text-dark" class="scroll" href="#quem-somos">Quem Somos</a></li>
+              <li class="nav-item "><a class="ml-4 nav-link text-center text-dark" class="scroll" href="#servicos">Serviços</a></li>
+              <li class="nav-item "><a class="ml-4 nav-link text-center text-dark" class="scroll" href="#rodape">Fale Conosco</a></li>
+             
+              
+            </ul>
+          </div>
+       </div>   
+        
+  </nav>
+      <!--Capa-->
+      <div id="capa" class="img-capa">
+           <div ></div>
+      </div>
 
+      <section id="sobre">
+        <div class="quem-somos">teste</div>
+      </section>
+
+    
 
 
     <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>    
     <script src="bootstrap/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
     <script type="text/javascript">
  /*      
 // Change style of navbar on scroll
