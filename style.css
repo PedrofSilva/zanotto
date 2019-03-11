@@ -1,14 +1,16 @@
+@import url("static/fonts/Montserrat/fonts/webfonts/Montserrat.css");
 .marcador{
 	border: solid 2px red;
 }
 .marcador2{
 	border: solid 1px green;
 }
-
 /************************ Tags ***********************/
 html, body{
 	height: 100%;
-	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-family:  "Helvetica Neue", Helvetica, Arial, sans-serif;
+	/*font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;*/
+	
 }
 
 /************************ Id ***********************/
@@ -167,3 +169,14 @@ body {
   }
   
   /*=========================*/
+
+
+
+
+
+
+
+
+
+
+ 
