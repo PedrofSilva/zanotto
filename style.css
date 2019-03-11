@@ -23,10 +23,14 @@ html, body{
 	
 }
 #produtos{
-	background-image: linear-gradient(to top, #075707 0%, #0c780c 100%); 
-	
+	/*background-image: linear-gradient(to top, #075707 0%, #0c780c 100%);*/
+	background-image: linear-gradient(to top, #106042 0%, #09724A 100%);
+ 
 }
-
+#footer{
+	background-image: linear-gradient(to top, #2b2b2b 0%, rgb(58, 58, 58) 100%);
+	font-size: 80%;
+}
 /************************ Clasees ***********************/
 
 .nav-link{
@@ -76,8 +80,12 @@ html, body{
 .quem-somos{
 	height: 200px;
 }
-
-
+.color-danger{
+	color: #c70004;
+}
+.bg-color-danger{
+	background-color: #c70004;
+}
 
 
 @media (max-width: 450px){
